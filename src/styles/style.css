@@ -1,0 +1,445 @@
+@import url(./global.css);
+
+/* HOME -------------------------------------------------------------- */
+#home{
+    background-color: var(--bg-home);
+}
+
+/* HEADER */
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 65px;
+    background-color: rgba(255, 251, 254, 0.24);
+    font-size: 32px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    gap: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header>a{
+    color: var(--bg-habilidades);
+}
+/* FIM HEADER */
+
+/* CONTEUDO */
+main{
+    background-color: var(--bg-home);
+    color: var(--cor-texto);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 750px;
+    gap:20%;
+} 
+
+/* CONTEUDO LADO ESQUERDO */
+.left-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 550px;
+    height: 650px;
+    gap: 50px;
+
+}
+
+.texto-hm{
+
+    padding-top: 46px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+#oi{
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.texto-hm>h4{
+    font-weight: 200;
+    font-size: 32px;
+}
+
+.texto-hm>h3{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.hm-redes{
+    width: 220px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.hm-redes>a>img{
+    width: 50px;
+    height: 50px;
+}
+
+.hm-redes>a>img:hover{
+    width: 80px;
+    height: 80px;
+}
+
+
+/* ------------------------- */
+
+/* CONTEUDO DIREITO */
+.right-content{
+    width: 50%px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right-content>img{
+    width: 550px;
+
+}
+
+.right-content>h3{
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+/* ------------------------- */
+/* FIM HOME------------------------- */
+
+.espaco{
+    width: 100%;
+    height: 60px;
+}
+
+.espaco-hm{
+    background-color: var(--bg-home);
+    width: 100%;
+    height: 30px;
+}
+
+.espaco-hab{
+    background-color: var(--bg-habilidades);
+    width: 100%;
+    height: 30px;
+}
+
+/* HABILIDADES */
+#habilidades{
+    width: 100%;
+    height: 750px;
+    background-color: var(--bg-habilidades);
+    color: var(--cor-texto);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hab-title{
+    font-size: 40px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.main-hab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 725px;
+    gap: 20%;
+}
+
+
+/* HAB CONTEUDO ESQUERDO */
+.hab-left-content{
+    width: 400px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 75px;
+}
+
+/* LINGUAGENS */
+.linguagens{
+    height: 140px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.linguagens>h4{
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.idiomas{
+    display: flex;
+    gap: 15px;
+}
+
+.idiomas>p{
+    font-weight: 100;
+    font-size: 38px;
+}
+
+.stars{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    gap: 7px;
+}
+
+.stars>img{
+    width: 32px;    
+}
+
+.ref{
+    padding-left: 25px;
+    gap: 10px;
+}
+
+.ref-tec{
+    gap: px;
+    padding-left: 25px;
+    gap: 10px;
+}
+
+/* =----------------------------------------------------- */
+
+/* TECNOLOGIAS */
+.tecnologias{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+    gap: 15px;
+}
+
+.tecnologias>h4{
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.itens{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 80px;
+    gap: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 230px;
+    height: 60px;
+}
+
+.logo>img{
+    width: 55px;
+    height: 55px;
+}
+
+.logo-2{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 140px;
+    height: 60px;
+}
+
+.logo-2>img{
+    width: 55px;
+    height: 55px;
+}
+
+.level-skill{
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.level-skill>img{
+    width: 35px;
+}
+
+/* ------------------------------------------- */
+
+.hab-right-content{
+    width: 750px;
+    height: 725px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.softskills{
+    border: 2.5px solid var(--cor-texto);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 30px 25px;
+    width: 660px;
+    height: 425px;
+    gap: 25px;
+}
+
+.softskills>h4{
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.text-sfs{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    gap: 5px;
+}
+
+.text-sfs>p{
+    font-size: 35px;
+    font-weight: 100;
+}
+
+/* FIM HABILIDADE------------------------- */
+
+
+/* PROJETOS */
+#projetos{
+    background-color: var(--bg-projetos);
+    color: var(--cor-texto);
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#project-title{
+    font-size: 40px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.project-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1500px;
+    height: 600px;
+    gap: 20%;
+    padding: 12px;
+}
+
+article{
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--cor-texto);
+    color: var(--bg-habilidades);
+    width: 550px;
+    height: 420px;
+    padding: 0px 25px;
+    gap: 10px;
+}
+
+.projeto-text{
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.cube-img{
+    border-radius: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 14.2px 10px rgba(133, 14, 230, 0.56) inset;
+    width: 500px;
+    height: 290px;
+
+}
+
+.calc-img>img{
+    width: 500px;
+    height: 290px;
+}
+
+.cube-img>img{
+    width: 200px;
+}
+
+.nome-projeto{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nome-projeto>a>img{
+    width: 30px;
+}
+
+.nome-projeto>a>img:hover{
+    width: 45px;
+}
+
+.pj-text>h4{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.pj-text>p{
+    font-size: 24px;
+    font-weight: 100;
+}
+
+/* FIM PROJETOS------------------------- */
+
+/* CONTATO */
+#contato{
+    background-color: var(--bg-contato);
+    color: var(--cor-texto);
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/* FIM CONTATO------------------------- */
+
+
+
+/* FOOTER */
+footer{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* FIM FOOTER------------------------- */
