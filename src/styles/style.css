@@ -216,7 +216,6 @@ main{
 }
 
 .ref-tec{
-    gap: px;
     padding-left: 25px;
     gap: 10px;
 }
@@ -423,30 +422,91 @@ article{
     background-color: var(--bg-contato);
     color: var(--cor-texto);
     width: 100%;
-    height: 450px;
+    height: 400px;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
+#contact-title{
+    margin-left: 66px;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: left;
+}
+
 .row{
-    border: 1px solid white;
     display: flex;
     width: 100%;
     height: 600px;
 }
 
 .left-cont{
-    border: 1px solid black;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+    gap: 45px;
     width: 50%;
     text-align: start;
+    padding-left: 60px;
 }
 
+.logo-cont{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
 
+.logo-cont>a>img{
+    width: 55px;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    margin-left: 5px;
+}
+
+.email>img{
+    width: 50px;
+}
+
+.email>p{
+    font-size: 28px;
+    font-weight: 100; 
+}
+
+.telefone{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 5px;
+}
+
+.telefone>img{
+    width: 50px;
+}
+
+.telefone>p{
+    font-size: 28px;
+    font-weight: 100; 
+}
+
+.right-cont{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-cont>h4{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 200;
+    width: 260px;
+    font-style: italic;
+}
 
 
 /* FIM CONTATO------------------------- */
